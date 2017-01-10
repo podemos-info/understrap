@@ -5,10 +5,50 @@
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
-$font-family-sans-serif:Arial, sans-serif;
-$brand-primary:         #7852B2; //#ff6d5a
+// Start with assigning color names to specific hex values.
+$white:  #fff !default;
+$black:  #000 !default;
+$red:    #bf4264; //De la web lasonrisadeunpais.es
+$orange: #d47346; //De la web lasonrisadeunpais.es
+$yellow: #d4ae49; //De la web lasonrisadeunpais.es
+$green:  #74b841; //De la web lasonrisadeunpais.es 
+$blue:   #316a87; //De la web lasonrisadeunpais.es
+$teal:   #2d8e6b; //De la web lasonrisadeunpais.es
+$pink:   #97668B; //De la web lasonrisadeunpais.es
+$purple: #612d62; //De la web lasonrisadeunpais.es
+//De la web lasonrisadeunpais.es #BCD275 EN ENLACE SELECCIONADO
 
-// Basics of a navbar
-$navbar-height:                    60px;
-$navbar-margin-bottom:             0px;
-$navbar-border-radius:             0px;
+// Create grayscale
+$gray-dark:                 #333333 !default; //De la web lasonrisadeunpais.es #999 - body#333 input#eee liststyle#aaa fondopagina #FBFBFC
+$gray:                      #999999 !default;
+$gray-light:                #aaaaaa !default;
+$gray-lighter:              #eeeeee !default;
+$gray-lightest:             #fbfbfc !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $purple; 
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:       $gray-lightest;
+
+// Links
+//
+// Style anchor elements.
+
+//$link-color:            $white;
+$link-hover-color:      #bdc275;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default; // Y aquí??
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default; // Y aquí??
+$font-family-base:       $font-family-sans-serif !default;
+
+$headings-font-family:   'Montserrat', sans-serif;
+$headings-color:         $gray-dark;
