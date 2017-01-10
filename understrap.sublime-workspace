@@ -1,0 +1,1058 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"joao_im_precios",
+				"joao_im_precios_maquetacion-web"
+			],
+			[
+				"section",
+				"section_content"
+			],
+			[
+				"if",
+				"ifb\tTwig : If (block)"
+			],
+			[
+				"joao_im_prec",
+				"joao_im_precios_paginas_web\t(base.html.twig)"
+			],
+			[
+				"ugl",
+				"uglifycss\t(config.yml)"
+			],
+			[
+				"css",
+				"cssrewrite\t(config.yml)"
+			],
+			[
+				"fil",
+				"filter\tTwig : Filter"
+			],
+			[
+				"joao_im_we",
+				"joao_im_web_ecommerce\t(webProfesional.html.twig)"
+			],
+			[
+				"joao_im_web",
+				"joao_im_web_express\t(webProfesional.html.twig)"
+			],
+			[
+				"joao_im_pre",
+				"joao_im_precios_paginas_web\t(base.html.twig)"
+			],
+			[
+				"gray-light",
+				"gray-lighter"
+			],
+			[
+				"vcen",
+				"vcenter_item"
+			],
+			[
+				"wai",
+				"wait"
+			],
+			[
+				"gray-dar",
+				"gray-darker"
+			],
+			[
+				"caracter",
+				"característica"
+			],
+			[
+				"joao_im",
+				"joao_im_web_proyects"
+			],
+			[
+				"joao_",
+				"joao_im_web_proyects_edit"
+			],
+			[
+				"arg",
+				"arg1"
+			],
+			[
+				"entit",
+				"entities"
+			],
+			[
+				"Proyects",
+				"ProyectsBundle\t(DefaultContext.php)"
+			],
+			[
+				"blog_pos",
+				"blog_post_show\t(seoredirect.yml)"
+			],
+			[
+				"all",
+				"allPendientes"
+			],
+			[
+				"scr",
+				"script\tTag"
+			],
+			[
+				"days",
+				"daysPoints"
+			],
+			[
+				"times",
+				"timestampPassed"
+			],
+			[
+				"datetime",
+				"date_timestamp_get"
+			],
+			[
+				"servicio",
+				"servicioType"
+			],
+			[
+				"PRIORITY",
+				"PRIORITY_NORMAL"
+			],
+			[
+				"Joao",
+				"JoaoIm"
+			],
+			[
+				"genera",
+				"generate\t(Mailer.php)"
+			],
+			[
+				"cap",
+				"capitalize\t(list.html.twig)"
+			],
+			[
+				"__",
+				"__toString\t(list.html.twig)"
+			],
+			[
+				"ladybu",
+				"ladybug_dump"
+			],
+			[
+				"switc",
+				"switch_user\t(security.yml)"
+			],
+			[
+				"joao_im_w",
+				"joao_im_web_panel\t(layout.html.twig)"
+			],
+			[
+				"has",
+				"hasEspecialBono\t(User.php)"
+			],
+			[
+				"well-primary",
+				"well.well-primary"
+			],
+			[
+				"fecha",
+				"fechaInicio\t(list.html.twig)"
+			],
+			[
+				"row",
+				"div.row"
+			],
+			[
+				"completad",
+				"completadas"
+			],
+			[
+				"find",
+				"findAllEncurso\t(PeticionRepository.php)"
+			],
+			[
+				"findAll",
+				"findAllPendientes\t(PeticionRepository.php)"
+			],
+			[
+				"JoaoIM",
+				"JoaoImPeticionesBundle:Peticion"
+			],
+			[
+				"JoaoIm",
+				"JoaoImPeticionesBundle:Peticion"
+			],
+			[
+				"joao",
+				"joao_im_web_panel_peticion_show\t(show.html.twig)"
+			],
+			[
+				"peticio",
+				"peticion_show\t(show.html.twig)"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"light",
+				"lighten(color, 10%)"
+			],
+			[
+				"si",
+				"siblings\t.siblings()"
+			],
+			[
+				"close",
+				"closest\t.closest()"
+			],
+			[
+				"peticiones",
+				"peticion_change_estate\t(show.html.twig)"
+			],
+			[
+				"sub",
+				"submit\t(TareaController.php)"
+			],
+			[
+				"metho",
+				"method\t(show.html.twig)"
+			],
+			[
+				"confirm",
+				"confirm〔function〕"
+			],
+			[
+				"getHoras",
+				"getHorasGastadas"
+			],
+			[
+				"bonos",
+				"$bonosActivos〔variable〕"
+			],
+			[
+				"getA",
+				"getAllUsers〔function〕"
+			],
+			[
+				"peticion",
+				"$peticionesPendientes〔variable〕"
+			],
+			[
+				"user",
+				"$userReference〔variable〕"
+			],
+			[
+				"userR",
+				"$userRelated〔variable〕"
+			],
+			[
+				"remove",
+				"removeAttr〔function〕"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"redirect",
+				"$redirectTo〔variable〕"
+			],
+			[
+				"value",
+				"value=\"Un"
+			],
+			[
+				"assert",
+				"assertSame〔function〕"
+			],
+			[
+				"asser",
+				"assertEquals〔function〕"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"sf",
+				"sfredirect\tSymfony2 / Controller / Redirect"
+			],
+			[
+				"bono",
+				"bonoReference"
+			],
+			[
+				"free",
+				"freeIndex"
+			],
+			[
+				"rege",
+				"regexp"
+			],
+			[
+				"dele",
+				"deleteFormPeticiones"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"deleteF",
+				"deleteFormTarea"
+			],
+			[
+				"for",
+				"for\tTwig : For"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"pet",
+				"peticion_id"
+			],
+			[
+				"block",
+				"block\tTwig : Block"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"xorg_",
+				"xorg_xyz"
+			],
+			[
+				"data",
+				"database_password"
+			],
+			[
+				"database_",
+				"database_user"
+			],
+			[
+				"BRAN",
+				"brand-tertiary"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"Res",
+				"ResettingController"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"contact",
+				"contactManager"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"get",
+				"get\t$.get()"
+			],
+			[
+				"cate",
+				"categorias"
+			],
+			[
+				"findb",
+				"findOneBy"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/theme/_theme_variables.scss",
+			"settings":
+			{
+				"buffer_size": 2215,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/theme/_theme.scss",
+			"settings":
+			{
+				"buffer_size": 251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/theme.scss",
+			"settings":
+			{
+				"buffer_size": 922,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/theme.js",
+			"settings":
+			{
+				"buffer_size": 199854,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 384.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/malka/public_html/understrap",
+		"/home/malka/public_html/understrap/css",
+		"/home/malka/public_html/understrap/js",
+		"/home/malka/public_html/understrap/sass",
+		"/home/malka/public_html/understrap/sass/theme",
+		"/home/malka/public_html/understrap/sass/understrap",
+		"/home/malka/public_html/understrap/src/js",
+		"/home/malka/public_html/understrap/src/sass"
+	],
+	"file_history":
+	[
+		"/home/malka/public_html/plugins/themes/wordpress/html5blank-stable-podemos/style.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos/src/sass/understrap/theme/_theme.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos/gulpfile.js",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos/README.md",
+		"/home/malka/public_html/plugins/themes/wordpress/undestrap-podemos-nieto/sass/theme/_child_theme_variables.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos/style.css",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos-nieto/sass/child-theme.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos/sass/theme/_child_theme_variables.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap-podemos-nieto/style.css",
+		"/home/malka/public_html/plugins/themes/wordpress/undestrap-podemos-nieto/README.md",
+		"/home/malka/public_html/plugins/themes/wordpress/undestrap-podemos-nieto/sass/child-theme.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/undestrap-podemos-nieto/style.css",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap/sass/theme/_theme_variables.scss",
+		"/home/malka/public_html/plugins/themes/wordpress/understrap/sass/theme.scss",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/PeticionesBundle/Resources/views/Peticion/Macros/peticion.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/PeticionesBundle/Controller/Frontend/PeticionController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Controller/Frontend/WebController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/roadmap.html.twig",
+		"/home/malka/public_html/informatico-madrid/web/robots.txt",
+		"/home/malka/public_html/informatico-madrid/informatico-madrid.sublime-project",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Entity/AdminBlog/Comment.php",
+		"/home/malka/public_html/informatico-madrid/web/app_dev.php",
+		"/home/malka/public_html/informatico-madrid/web/phpinfo.php",
+		"/home/malka/public_html/informatico-madrid/app/AppKernel.php",
+		"/home/malka/public_html/informatico-madrid/bin/console",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/PeticionesBundle/Resources/config/services.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Controller/AdminBlog/PostController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BonosBundle/Resources/config/services.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Controller/AdminBlog/CommentController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Controller/AdminBlog/CategoryController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ServiciosBundle/Controller/ServicioController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/TareasBundle/Controller/TareaController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BonosBundle/Controller/BonoController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/views/Default/showArticle.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Controller/DefaultController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/PeticionesBundle/Controller/PeticionController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ConfigBundle/Resources/config/settings.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ConfigBundle/Controller/SettingsController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ConfigBundle/Resources/views/Settings/modify_form.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ProyectsBundle/Controller/ProyectController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ContactBundle/Controller/BackendController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ContactBundle/Controller/ContactController.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ContactBundle/Resources/config/services.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/config/routing.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/config/routing_admin.yml",
+		"/home/malka/public_html/informatico-madrid/app/config/routing_dev.yml",
+		"/home/malka/public_html/informatico-madrid/app/ORIGINAL.bootstrap.php.cache",
+		"/home/malka/public_html/informatico-madrid/src/XorgXYZ/Bundle/UserBundle/Resources/config/services.yml",
+		"/home/malka/public_html/informatico-madrid/app/config/security.yml",
+		"/home/malka/public_html/informatico-madrid/app/config/contactBundle/contact.yml",
+		"/home/malka/public_html/informatico-madrid/app/config/config.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ChatBundle/Resources/config/config.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ChatBundle/Resources/config/services.yml",
+		"/home/malka/public_html/informatico-madrid/composer.json",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/webProfesional.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/js/main.js",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/preciosPaginasWeb.html.twig",
+		"/home/malka/public_html/informatico-madrid/sftp-config.json",
+		"/home/malka/public_html/informatico-madrid/features/bootstrap/JoaoIm/Bundle/ProyectsBundle/Behat/proyectsContext.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/animations.less",
+		"/home/malka/public_html/informatico-madrid/app/config/seoredirect.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/config/routing.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/base.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/base.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/views/layout.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Controller/AdminBlog/SecuredController.php",
+		"/home/malka/public_html/informatico-madrid/src/XorgXYZ/Bundle/UserBundle/Resources/translations/FOSUserBundle.bg.yml",
+		"/home/malka/public_html/informatico-madrid/features/bootstrap/JoaoIm/Bundle/ProyectsBundle/Behat/ProyectosContext.php",
+		"/home/malka/public_html/informatico-madrid/vendor/qRoC/ContactBundle/composer.json",
+		"/home/malka/public_html/informatico-madrid/vendor/mremi/contact-bundle/MremiContactBundle.php",
+		"/home/malka/public_html/goprofitWainari17-03-2015/src/Goprofit/Wainari/WebBundle/Resources/public/js/cookies.js",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/maquetacionWeb.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/politicaPrivacidad.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/portfolio.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/presupuesto.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/paginasAmigas.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/mapaDelSitio.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/views/Default/_articleCategories.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/producto.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/js/bootstrap.min.js",
+		"/home/malka/public_html/informatico-madrid/vendor/twbs/bootstrap/dist/js/bootstrap.min.js",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/portfolio.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/extrabase.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/sitemaps.xml.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/Panel/actualizacionServicios2015.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/views/base.layout.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/programacionWeb.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/index.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/variables.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Tests/Controller/DefaultControllerTest.php",
+		"/home/malka/public_html/informatico-madrid/app/config/parameters.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Backend/layout.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/layout.html.twig",
+		"/tmp/sublime-sftp-browse-1452779248/mapped/home/joao/webs/webinformatico/app/config/parameters.yml",
+		"/tmp/sublime-sftp-browse-1452770281/mapped/home/joao/webs/webinformatico/app/config/config.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/js/jquery.min.js",
+		"/home/malka/public_html/informatico-madrid/app/config/parameters.yml.dist",
+		"/tmp/sublime-sftp-browse-1452773574/mapped/home/joao/webs/webinformatico/composer.json",
+		"/home/malka/public_html/informatico-madrid/web/bundles/joaoimweb/js/bootstrap.min.js",
+		"/home/malka/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/malka/public_html/informatico-madrid/vendor/twbs/bootstrap/dist/js/bootstrap.js",
+		"/home/malka/public_html/informatico-madrid/features/bootstrap/JoaoIm/Bundle/ProyectsBundle/Behat/DefaultContext.php",
+		"/home/malka/public_html/informatico-madrid/features/backend/proyectos.feature",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/slide.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/variablesLight.less",
+		"/home/malka/public_html/informatico-madrid/features/proyects.feature",
+		"/home/malka/public_html/informatico-madrid/features/backend/caracteristicas.feature",
+		"/home/malka/public_html/informatico-madrid/features/backend/metabddfeature.feature",
+		"/home/malka/public_html/informatico-madrid/features/backend/escenarios.feature",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/config/routing/Frontend/Panel/routing.yml",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/Panel/index.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Controller/Frontend/PanelController.php",
+		"/home/malka/Documentos/nuevosservicios",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/public/less/blog.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BlogBundle/Resources/views/Default/_articleList.html.twig",
+		"/mnt/5293C8CD00B3202C/BACKUPS/goprofit/index.php",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/clasesParticulares.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/font-awesome-4.5.0/css/font-awesome.css",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/font-awesome-4.5.0/less/variables.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/public/less/backend.less",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/landing.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/paginasWebBaratas.html.twig",
+		"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle/Resources/views/Frontend/posicionamiento.html.twig",
+		"/home/malka/Documentos/goprofit/app/mainController.php",
+		"/mnt/5293C8CD00B3202C/BACKUPS/goprofit/readme.md",
+		"/mnt/5293C8CD00B3202C/BACKUPS/goprofit/app/routes.ini",
+		"/mnt/5293C8CD00B3202C/BACKUPS/goprofit/app/config.ini",
+		"/mnt/5293C8CD00B3202C/BACKUPS/goprofit/app/pagina.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/app",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid,<open files>",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/web/bundles/mvblog",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BonosBundle",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BonosBundle/Controller",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/BonosBundle",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid/vendor/egeloen/ckeditor-bundle",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/vendor/egeloen/ckeditor-bundle",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/WebBundle",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/vendor",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/informatico-madrid",
+			"/home/malka/public_html/informatico-madrid/src/JoaoIm/Bundle/ChatBundle",
+			"/home/malka/public_html/informatico-madrid/",
+			"/home/malka/public_html/informatico-madrid/src",
+			"/home/malka/public_html/centroMedicoMadrid2/wp-content/themes/Divi"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"child",
+			"Child",
+			"child",
+			"Child",
+			"child",
+			"submit",
+			"get('request')",
+			"SUBMIT",
+			"get('request')",
+			"request",
+			"CreateForm",
+			"poly",
+			"ec",
+			"BCResourceInterfaceChecker",
+			"pattern",
+			"BCResourceInterfaceChecker",
+			"security",
+			"Mremi\\ContactBundle",
+			"excelwebzone/recaptcha-bundle",
+			"Twig_Filter_Method",
+			"politica",
+			"joao_im_politica_privacidad",
+			".cookiesms",
+			"cookie1",
+			"cookiesms",
+			"189",
+			"metaDescripcion",
+			"social-likes",
+			"text-ccenter",
+			"col-sm-4 col-md-6",
+			"6",
+			"col-sm-4 col-md-6",
+			"browserContextClick",
+			"getService",
+			"generateUrl",
+			"generatePageUrl",
+			"kernel",
+			"SETkERNEL",
+			"sharedKernel",
+			"rel=\"canonical\"",
+			"Roadmap o el camino de desarrollo de nuestra propia aplicación web",
+			"Política de privacidad y condiciones de uso de informatico-madrid.com",
+			"moved_post_12_bis",
+			"joao_im_psd_a_joomla",
+			"moved_psd",
+			"moved_ps_",
+			".</",
+			"Cumplicos",
+			"cumplicos",
+			"desarrollador web freelance",
+			"de usuario",
+			"preciosejemplo",
+			"<h5>",
+			"<p>",
+			" class=\"list-group-item\"",
+			" class=\"lead\"",
+			"<li>",
+			"col-sm-4\"",
+			"&aacute;",
+			"iframe",
+			"showBtn",
+			"chisp",
+			"chip",
+			"\"linktoposter.jpg",
+			"Desarrollo BDD",
+			"poster",
+			"linkto",
+			"Paquetes web preconfigurados",
+			"preconfi",
+			"explicit for ie8",
+			"Roboto",
+			"tool-top",
+			"servicio de calidad",
+			"env",
+			"<div class=\"col-sm-4\">",
+			"<div class=\"col-sm-8\">",
+			"<div class=\"col-sm-4 col-md-3\">",
+			"</div>\n      <div class=\"row\">",
+			"<div class=\"col-md-4\">",
+			"<div class=\"col-sm-8\">",
+			".carousel-caption",
+			".carousel-caption h2",
+			"showBtn",
+			"innerHTML",
+			"<a href=\"web-express\" class=\"btn btn-primary btn-lg btn-block\">Más información: 606990235</a>",
+			"\n                <div class=\"col-xs-12\"><p><span><a href=\"web-express\" class=\"btn btn-primary btn-lg btn-block\">Más información: 606990235",
+			".marketing .col-lg-4",
+			"<div class=\"col-lg-4\">\n                \t\t<span class=\"lead\">",
+			"col-lg-2",
+			"<div class=\"col-md-4\">\n          <div class=\"col-md-6\">",
+			"</div>\n          <div class=\"col-md-6\">",
+			"Atención telefónica",
+			"Atención d",
+			"gestión",
+			"Asistencia técnica",
+			"Gestión de páginas",
+			"escenarios",
+			"Asistencia técnica por horas",
+			"Atención técnica",
+			"Gestión de páginas web",
+			"módulo de comer",
+			"€ €",
+			"</img>",
+			"calidad",
+			"clubviaje.png",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"FeaturesText",
+			"featuresText",
+			"proposi",
+			"Consultenos",
+			"href=\"#\" class=\"btn btn-disabled btn-lg btn-block\"",
+			"navidades",
+			"<span class=\"badge\"></span>",
+			"<span class=\"badge\"><i class=\"fa fa-check\"></i></span>",
+			"<i class=\"fa fa-check\"></i>",
+			"tab",
+			"label label-default",
+			"href=\"posicionmiento-buscadores\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Clases servicios y hosting",
+			"<a href=\"{{ path('joao_im_contact_form') }}\" class=\"btn btn-primary btn-lg btn-block\">Presupuestos y información por email</a>",
+			"Asesoría telefónica",
+			"Asesoría d",
+			"Soporte técnico",
+			"Administración técnica de páginas",
+			"Apoyo técnico por horas",
+			"Soporte técnico",
+			"href=\"{{ path('joao_im_web_profesional') }}\"",
+			"<div class=\"col-md-12\">\n            <div class=\"well well-primary\">",
+			"Horas gastadas",
+			"horasGastadas",
+			"joaoim_extension",
+			"<?php\n\njoaoim_extension",
+			"<?php\n\nnamespace JoaoIm\\Bundle\\BlogBundle",
+			"<?php\n\nnamespace JoaoIm\\Bundle",
+			"JoaoIm\\Bundle\\BlogBundle",
+			"use JoaoIm\\Bundle\\BlogBundle",
+			"namespace JoaoIm\\Bundle\\BlogBundle",
+			"JoaoIm\\Bundle\\BlogBundle",
+			"JoaoImBlog",
+			"joaoim_blog",
+			"namespace JoaoIm\\Bundle\\BlogBundle",
+			"joaoIm_blog.max_per_page",
+			"JoaoImBlogBundle",
+			"joaoim.twig.joaoim_extension",
+			"use JoaoIm\\Bundle\\BlogBundle"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/theme/_theme_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/theme/_theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								612,
+								612
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/theme.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 199854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53924,
+								53924
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9063.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 284.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "understrap.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

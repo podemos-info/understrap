@@ -1,0 +1,12 @@
+$ManusPath: "assets/fonts/manus" !default;
+
+@font-face {
+  font-family: 'Manus';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$ManusPath}/manus-webfont.eot');
+  src: url('#{$ManusPath}/manus-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$ManusPath}/manus-webfont.woff') format('woff'),
+  url('#{$ManusPath}/manus-webfont.ttf') format('truetype'),
+  url('#{$ManusPath}/manus-webfont.svg#Montserrat-Regular') format('svg');
+}
