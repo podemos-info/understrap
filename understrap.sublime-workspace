@@ -388,7 +388,7 @@
 			"file": "sass/theme/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 251,
+				"buffer_size": 115,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -397,16 +397,16 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 922,
+				"buffer_size": 1003,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/theme.js",
+			"file": "sass/assets/fonts/open-sans.scss",
 			"settings":
 			{
-				"buffer_size": 199854,
+				"buffer_size": 5463,
 				"line_ending": "Unix"
 			}
 		}
@@ -451,14 +451,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/malka/public_html/understrap",
-		"/home/malka/public_html/understrap/css",
-		"/home/malka/public_html/understrap/js",
 		"/home/malka/public_html/understrap/sass",
+		"/home/malka/public_html/understrap/sass/assets",
+		"/home/malka/public_html/understrap/sass/assets/fonts",
 		"/home/malka/public_html/understrap/sass/theme",
-		"/home/malka/public_html/understrap/sass/understrap",
-		"/home/malka/public_html/understrap/src/js",
-		"/home/malka/public_html/understrap/src/sass"
+		"/home/malka/public_html/understrap/sass/understrap"
 	],
 	"file_history":
 	[
@@ -831,7 +828,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -863,7 +860,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -872,15 +869,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								251,
-								251
+								115,
+								115
 							]
 						],
 						"settings":
@@ -904,15 +901,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 922,
+						"buffer_size": 1003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								612,
-								612
+								510,
+								510
 							]
 						],
 						"settings":
@@ -927,24 +924,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "js/theme.js",
+					"file": "sass/assets/fonts/open-sans.scss",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 199854,
+						"buffer_size": 5463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53924,
-								53924
+								0,
+								0
 							]
 						],
 						"settings":
@@ -953,10 +950,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9063.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1045,6 +1044,10 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": true,

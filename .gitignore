@@ -10,3 +10,6 @@ understrap.zip
 
 dist
 
+*.sublime-project
+*.sublime-workspace
+
