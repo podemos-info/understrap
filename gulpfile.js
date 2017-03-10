@@ -39,11 +39,12 @@ var clone = require('gulp-clone');
 var merge = require('gulp-merge');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
+var del = require('del');
 
 
 // Run:
 // gulp sass + cssnano + rename
-// Prepare the min.css for production (with 2 pipes to be sure that "child-theme.css" == "child-theme.min.css")
+// Prepare the min.css for production (with 2 pipes to be sure that "theme.css" == "theme.min.css")
 gulp.task('scss-for-prod', function() {
     var source =  gulp.src('./sass/*.scss')
         .pipe(plumber())
@@ -52,7 +53,9 @@ gulp.task('scss-for-prod', function() {
 
     var pipe1 = source.pipe(clone())
         .pipe(sourcemaps.write(undefined, { sourceRoot: null }))
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('./css'))
+        .pipe(rename('custom-editor-style.css'))
+
 
     var pipe2 = source.pipe(clone())
         .pipe(cssnano())
@@ -84,10 +87,12 @@ gulp.task('watch-scss', ['browser-sync'], function () {
 // gulp sass
 // Compiles SCSS files in CSS
 gulp.task('sass', function () {
-    gulp.src('./sass/*.scss')
+    var stream = gulp.src('./sass/*.scss')
         .pipe(plumber())
         .pipe(sass())
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('./css'))
+        .pipe(rename('custom-editor-style.css'))
+    return stream;
 });
 
 
@@ -97,14 +102,14 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
     gulp.watch('./css/theme.css', ['cssnano']);
-    gulp.watch([basePaths.dev + 'js/**/*.js'], ['scripts'])
+    gulp.watch([basePaths.dev + 'js/**/*.js','js/**/*.js','!js/theme.js','!js/theme.min.js'], ['scripts'])
 });
 
 
 // Run:
 // gulp cssnano
 // Minifies CSS files
-gulp.task('cssnano', ['cleancss'], function(){
+gulp.task('cssnano', function(){
   return gulp.src('./css/theme.css')
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(plumber())
@@ -140,7 +145,6 @@ gulp.task('watch-bs', ['browser-sync', 'watch', 'cssnano', 'scripts'], function 
 // Uglifies and concat all JS files into one
 gulp.task('scripts', function() {
     var scripts = [
-        basePaths.dev + 'js/owl.carousel.min.js', // Must be loaded before BS4
         basePaths.dev + 'js/tether.js', // Must be loaded before BS4
 
         // Start - All BS4 stuff
@@ -160,22 +164,28 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./js/'));
 });
 
+// Deleting any file inside the /src folder
+gulp.task('clean-source', function () {
+  return del(['src/**/*',]);
+});
 
 // Run:
 // gulp copy-assets.
 // Copy all needed dependency assets files from bower_component assets to themes /js, /scss and /fonts folder. Run this task after bower install or bower update
 
 ////////////////// All Bootstrap SASS  Assets /////////////////////////
-gulp.task('copy-assets', function() {
+gulp.task('copy-assets', ['clean-source'], function() {
 
 ////////////////// All Bootstrap 4 Assets /////////////////////////
 // Copy all Bootstrap JS files
-    gulp.src(basePaths.node + 'bootstrap/dist/js/**/*.js')
+    var stream = gulp.src(basePaths.node + 'bootstrap/dist/js/**/*.js')
        .pipe(gulp.dest(basePaths.dev + '/js/bootstrap4'));
+  
 
 // Copy all Bootstrap SCSS files
     gulp.src(basePaths.node + 'bootstrap/scss/**/*.scss')
        .pipe(gulp.dest(basePaths.dev + '/sass/bootstrap4'));
+
 ////////////////// End Bootstrap 4 Assets /////////////////////////
 
 // Copy all Font Awesome Fonts
@@ -185,18 +195,6 @@ gulp.task('copy-assets', function() {
 // Copy all Font Awesome SCSS files
     gulp.src(basePaths.node + 'font-awesome/scss/*.scss')
         .pipe(gulp.dest(basePaths.dev + '/sass/fontawesome'));
-
-// owl JS files
-    gulp.src(basePaths.node + 'owl.carousel/dist/*.js')
-        .pipe(gulp.dest(basePaths.dev + '/js'));
-
-// Copy all Owl2 SCSS files
-    gulp.src(basePaths.node + 'owl.carousel/src/scss/*.scss')
-       .pipe(gulp.dest(basePaths.dev + '/sass/owl-carousel2'));
-
-// Copy all Owl2 CSS files
-    gulp.src(basePaths.node + 'owl.carousel/dist/assets/*.css')
-        .pipe(gulp.dest(basePaths.dev + '/css'));
 
 // Copy jQuery
     gulp.src(basePaths.node + 'jquery/dist/*.js')
@@ -217,13 +215,32 @@ gulp.task('copy-assets', function() {
 // Copy Tether CSS files
     gulp.src(basePaths.node + 'tether/dist/css/*.css')
         .pipe(gulp.dest(basePaths.dev + '/css'));
+    return stream;
 });
 
 
 // Run
 // gulp dist
 // Copies the files to the /dist folder for distributon
-gulp.task('dist', function() {
-    gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**', '*'])
+gulp.task('dist', ['clean-dist'], function() {
+    gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**','!dist-product','!dist-product/**','!sass','!sass/**','!readme.txt','!readme.md','!package.json','!gulpfile.js','!CHANGELOG.md','!.travis.yml','!jshintignore', '!codesniffer.ruleset.xml', '*'])
     .pipe(gulp.dest('dist/'))
+});
+
+// Deleting any file inside the /src folder
+gulp.task('clean-dist', function () {
+  return del(['dist/**/*',]);
+});
+
+// Run
+// gulp dist-product
+// Copies the files to the /dist folder for distributon
+gulp.task('dist-product', ['clean-dist-product'], function() {
+    gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**','!dist-product','!dist-product/**', '*'])
+    .pipe(gulp.dest('dist-product/'))
+});
+
+// Deleting any file inside the /src folder
+gulp.task('clean-dist-product', function () {
+  return del(['dist-product/**/*',]);
 });

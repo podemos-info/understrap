@@ -4,8 +4,6 @@ bower_components
 
 node_modules
 
-src
-
 understrap.zip
 
 dist
@@ -13,3 +11,6 @@ dist
 *.sublime-project
 *.sublime-workspace
 
+dist-product
+
+npm-debug.log
