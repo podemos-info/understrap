@@ -33,6 +33,7 @@ var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var merge2 = require('merge2');
+var imagemin = require('gulp-imagemin');
 var ignore = require('gulp-ignore');
 var rimraf = require('gulp-rimraf');
 var clone = require('gulp-clone');
@@ -40,6 +41,7 @@ var merge = require('gulp-merge');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var del = require('del');
+var cleanCSS = require('gulp-clean-css');
 
 
 // Run:
@@ -58,7 +60,7 @@ gulp.task('scss-for-prod', function() {
 
 
     var pipe2 = source.pipe(clone())
-        .pipe(cssnano())
+        .pipe(minify-css())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./css'));
 
@@ -101,8 +103,20 @@ gulp.task('sass', function () {
 // Starts watcher. Watcher runs gulp sass task on changes
 gulp.task('watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
-    gulp.watch('./css/theme.css', ['cssnano']);
-    gulp.watch([basePaths.dev + 'js/**/*.js','js/**/*.js','!js/theme.js','!js/theme.min.js'], ['scripts'])
+    gulp.watch('./css/theme.css', ['minify-css']);
+    gulp.watch([basePaths.dev + 'js/**/*.js','js/**/*.js','!js/theme.js','!js/theme.min.js'], ['scripts']);
+
+    //Inside the watch task.
+    gulp.watch('./img/**', ['imagemin'])
+});
+
+// Run:
+// gulp imagemin
+// Running image optimizing task
+gulp.task('imagemin', function(){
+    gulp.src('img/**')
+    .pipe(imagemin())
+    .pipe(gulp.dest('img'))
 });
 
 
@@ -117,6 +131,14 @@ gulp.task('cssnano', function(){
     .pipe(cssnano({discardComments: {removeAll: true}}))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css/'))
+});
+
+gulp.task('minify-css', function() {
+  return gulp.src('./css/theme.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(plumber())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('cleancss', function() {
@@ -137,7 +159,7 @@ gulp.task('browser-sync', function() {
 // Run:
 // gulp watch-bs
 // Starts watcher with browser-sync. Browser-sync reloads page automatically on your browser
-gulp.task('watch-bs', ['browser-sync', 'watch', 'cssnano', 'scripts'], function () { });
+gulp.task('watch-bs', ['browser-sync', 'watch', 'minify-css', 'scripts'], function () { });
 
 
 // Run: 
@@ -221,7 +243,7 @@ gulp.task('copy-assets', ['clean-source'], function() {
 
 // Run
 // gulp dist
-// Copies the files to the /dist folder for distributon
+// Copies the files to the /dist folder for distributon as simple theme
 gulp.task('dist', ['clean-dist'], function() {
     gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**','!dist-product','!dist-product/**','!sass','!sass/**','!readme.txt','!readme.md','!package.json','!gulpfile.js','!CHANGELOG.md','!.travis.yml','!jshintignore', '!codesniffer.ruleset.xml', '*'])
     .pipe(gulp.dest('dist/'))
@@ -234,9 +256,9 @@ gulp.task('clean-dist', function () {
 
 // Run
 // gulp dist-product
-// Copies the files to the /dist folder for distributon
+// Copies the files to the /dist-prod folder for distributon as theme with all assets
 gulp.task('dist-product', ['clean-dist-product'], function() {
-    gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**','!dist-product','!dist-product/**', '*'])
+    gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!dist','!dist/**','!dist-product','!dist-product/**', '*'])
     .pipe(gulp.dest('dist-product/'))
 });
 
