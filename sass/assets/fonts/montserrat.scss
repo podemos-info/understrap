@@ -22,3 +22,14 @@ $MontserratPath: "../../understrap/sass/assets/fonts/montserrat" !default;
   url('#{$MontserratPath}/Bold/Montserrat-Bold.ttf') format('truetype'),
   url('#{$MontserratPath}/Bold/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('#{$MontserratPath}/Black/Montserrat-Black.eot');
+  src: url('#{$MontserratPath}/Black/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+  url('#{$MontserratPath}/Black/Montserrat-Black.woff') format('woff'),
+  url('#{$MontserratPath}/Black/Montserrat-Black.ttf') format('truetype'),
+  url('#{$MontserratPath}/Black/Montserrat-Black.svg#Montserrat-Black') format('svg');
+}
